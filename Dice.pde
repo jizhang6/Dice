@@ -15,7 +15,6 @@ void draw() {
       rollSum = rollSum + hal.total();
       hal.show();
     }
-    System.out.println();
   }
   rect(0, 600, 600, 700);
   fill(255);
