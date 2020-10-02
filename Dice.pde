@@ -1,12 +1,12 @@
 void setup()
 {
   size(600, 700);
-  background(0);
   textSize(16);
   textAlign(CENTER, CENTER);
   noLoop();
 }
 void draw() {
+  background(0);
   int rollSum = 0;
   for (int y = 0; y < 600; y = y + 200) {
     for (int x = 0; x < 600; x = x + 200) {
