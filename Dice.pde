@@ -17,6 +17,7 @@ void draw() {
     }
     System.out.println();
   }
+  rect(0, 600, 600, 700);
   fill(255);
   text(rollSum, 300, 650);
 }
@@ -46,7 +47,7 @@ class Die {
 
   void show() {
     fill(255);
-    square(myX, myY, 200);
+    rect(myX, myY, myX+200, myY+200);
     fill(0);
     if (diceRoll==1) {
       circle(myX+100, myY+100, 10);
