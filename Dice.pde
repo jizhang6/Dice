@@ -50,37 +50,37 @@ class Die {
     rect(myX, myY, myX+200, myY+200);
     fill(0);
     if (diceRoll==1) {
-      circle(myX+100, myY+100, 10);
+      ellipse(myX+100, myY+100, 10, 10);
     }
     if (diceRoll==2) {
-      circle(myX+50, myY+50, 10);
-      circle(myX+150, myY+150, 10);
+      ellipse(myX+50, myY+50, 10, 10);
+      ellipse(myX+150, myY+150, 10, 10);
     }
     if (diceRoll==3) {
-      circle(myX+50, myY+50, 10);
-      circle(myX+100, myY+100, 10);
-      circle(myX+150, myY+150, 10);
+      ellipse(myX+50, myY+50, 10, 10);
+      ellipse(myX+100, myY+100, 10, 10);
+      ellipse(myX+150, myY+150, 10, 10);
     }
     if (diceRoll==4) {
-      circle(myX+50, myY+50, 10);
-      circle(myX+150, myY+50, 10);
-      circle(myX+50, myY+150, 10);
-      circle(myX+150, myY+150, 10);
+      ellipse(myX+50, myY+50, 10, 10);
+      ellipse(myX+150, myY+50, 10, 10);
+      ellipse(myX+50, myY+150, 10, 10);
+      ellipse(myX+150, myY+150, 10, 10);
     }
     if (diceRoll==5) {
-      circle(myX+100, myY+100, 10);
-      circle(myX+50, myY+50, 10);
-      circle(myX+150, myY+50, 10);
-      circle(myX+50, myY+150, 10);
-      circle(myX+150, myY+150, 10);
+      ellipse(myX+100, myY+100, 10, 10);
+      ellipse(myX+50, myY+50, 10, 10);
+      ellipse(myX+150, myY+50, 10, 10);
+      ellipse(myX+50, myY+150, 10, 10);
+      ellipse(myX+150, myY+150, 10, 10);
     }
     if (diceRoll==6) {
-      circle(myX+50, myY+50, 10);
-      circle(myX+150, myY+50, 10);
-      circle(myX+50, myY+100, 10);
-      circle(myX+150, myY+100, 10);
-      circle(myX+50, myY+150, 10);
-      circle(myX+150, myY+150, 10);
+      ellipse(myX+50, myY+50, 10, 10);
+      ellipse(myX+150, myY+50, 10, 10);
+      ellipse(myX+50, myY+100, 10, 10);
+      ellipse(myX+150, myY+100, 10, 10);
+      ellipse(myX+50, myY+150, 10, 10);
+      ellipse(myX+150, myY+150, 10, 10);
     }
   }
 }
